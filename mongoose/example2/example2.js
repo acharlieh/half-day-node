@@ -12,6 +12,19 @@ Comment.find({}, function(err, comments){
   emitter.emit('/comments/removed');
 });
 
+
+var createPost = function(t,b) {
+  var comment = new Comment({
+      title  : t
+    , body   : b
+  });
+
+  comment.save(function(err, comment){
+    console.log(comment);
+  });
+
+}
+
 emitter.on('/comments/removed', function(){
   var comment = new Comment({
       title  : 'Nice Post'
@@ -23,3 +36,6 @@ emitter.on('/comments/removed', function(){
   });
 
 });
+
+
+

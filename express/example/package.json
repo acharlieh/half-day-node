@@ -1,0 +1,17 @@
+{
+  "author": "ach_l",
+  "name": "example",
+  "description": "My Example",
+  "version": "0.1.2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ach-l/half-day-node.git"
+  },
+  "engines": {
+    "node": "v0.4.9"
+  },
+  "dependencies": {
+    "jade":"*"
+  },
+  "devDependencies": {}
+}

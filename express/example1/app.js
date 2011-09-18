@@ -18,7 +18,11 @@ app.get('/', function(req, res){
 });
 app.post('/', function(req, res){
   var user = req.param('user');
-  res.send(user);
+  //res.send(user);
+  res.render('postLogin', {
+       user:user
+     ,title:"Post Login
+  });
 });
 
 app.listen(3000);

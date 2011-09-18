@@ -4,7 +4,7 @@ var mongoose = require ('mongoose'),
 var CommentSchema = new Schema({
     title  : String
   , body   : String
-  , date   : Date
+  , date   : {type:Date, default:new Date()}
 });
 
 module.exports = mongoose.model('Comment', CommentSchema);
