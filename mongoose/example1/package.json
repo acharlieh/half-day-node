@@ -1,0 +1,17 @@
+{
+  "author": "James R. Carr <james.r.carr@gmail.com> (http://blog.james-carr.org)",
+  "name": "mongoose-examples",
+  "description": "A bunch of examples of using mongoose",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/starfish-prime/nodejs-bootcamp.git"
+  },
+  "engines": {
+    "node": "v0.4.12"
+  },
+  "dependencies": {
+    "mongoose":"2.0.0"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,13 @@
+h1= title
+
+fieldset
+  legend Add User
+  form(method="post", action="/")
+    label Name
+    input(type="text", name="user[name]")
+    br
+    label Password
+    input(type="password", name="user[password]")
+    br
+    input(type="submit", value="Save")
+
